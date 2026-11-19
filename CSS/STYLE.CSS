@@ -1,0 +1,86 @@
+/* 1. Pengaturan umum */
+*  { box-sizing: border-box; }
+body  {
+    margin : 0;
+    font-family:  "poppins", arial, sans-serif;
+    color: rgb(138, 46, 4);
+    line-height:  1.6;
+    background-color: floralwhite;
+}
+
+/*  2. header dan menu */
+header  {
+    background-color: rgb(219, 92, 6);
+    color: rgb(253, 253, 222);
+    text-align: center;
+    padding: 32px  16px;
+}
+header h1  {margin: 0; font-size: 40px;}
+nav  { margin-top: 16px;}
+nav a  {
+    color: beige;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0  12px;
+}
+nav a:hover  { text-decoration: underline;}
+
+/*  3. isi halaman  */
+main  {max-width: 960px; margin: 0 auto;  padding: 16px;}
+section {
+    background-color: beige;
+    border: 1px solid #eadfd3;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 24px 0;
+}
+h2 {
+    color: rgb(236, 61, 17);
+    border-bottom: 3px solid #f1f7a9;
+    padding-bottom: 8px;
+}
+img  { max-width: 100%; height: auto; border-radius: 8px;}
+
+/*  4. tabel  */
+table  { width: 100%; border-collapse: collapse;}
+th, td { border: 1px solid #e9ba73; padding: 10px; text-align: left;}
+th  { background-color: gainsboro;}
+
+/*  5. form  */
+input, select, textarea  {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f09051;
+    border-radius: 6px;
+    font-family: inherit;
+}
+button  {
+    background-color: beige;
+    color: rgb(252, 235, 215);
+    border: none;
+    border-radius: 6px;
+    padding: 12px  24px;
+    cursor: pointer;
+}
+button:hover  { background-color: #e48f4a; }
+
+
+/*  6. tombol whatsapp  */
+.tombol-wa {
+    display : inline-block;
+    background-color: chartreuse;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+
+/*  7.  footer  */
+footer  {
+    background-color: rgb(155, 61, 7);
+    color: beige;
+    text-align: center;
+    padding: 16px;
+}
